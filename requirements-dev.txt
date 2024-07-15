@@ -12,3 +12,4 @@ testresources==2.0.1
 testscenarios==0.5.0
 # Install MAAS itself in editable mode
 -e .
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
